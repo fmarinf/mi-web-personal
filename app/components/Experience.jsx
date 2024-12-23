@@ -3,7 +3,7 @@ import Card from './Card';
 export default function Experience() {
   return (
     <div className="flex justify-center py-28 px-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-8 md:gap-y-0 place-items-center">
         <div className="md:transform md:-translate-y-16">
           <Card
             title="Staff Data Engineer"
