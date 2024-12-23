@@ -4,11 +4,11 @@ export default function Hero() {
       <h1 className="text-6xl leading-tight">
       <span className="line-through text-gray-500 mr-2">
           Data Analyst 
-        </span> |  
+        </span>,   
         <span className="line-through text-gray-500 mr-2">
           Data Scientist 
         </span>
-        | Data Engineer🔧
+        Data Engineer🔧
         
       </h1>
       <p className="mt-4 text-xl text-secondary">

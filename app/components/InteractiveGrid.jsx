@@ -10,7 +10,7 @@ export default function InteractiveGrid() {
   const [catIndex, setCatIndex] = useState(null);
   const [found, setFound] = useState(false);
   const [cellSize, setCellSize] = useState(25);
-  const { resetKey } = useGato();  // Escuchamos el resetKey para reiniciar el grid
+  const { resetKey } = useGato();  
 
   const calculateDistance = (idx1, idx2) => {
     const x1 = idx1 % cols;
@@ -20,13 +20,12 @@ export default function InteractiveGrid() {
     return Math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2);
   };
 
-  // Restablece la posición del gato al cambiar el resetKey
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * totalCells);
     setCatIndex(randomIndex);
-    setFound(false);  // Reiniciar el estado de encontrado
+    setFound(false); 
     setHoveredIndex(null);
-  }, [totalCells, resetKey]);  // Dependemos del resetKey para resetear el grid
+  }, [totalCells, resetKey]); 
 
   const handleHover = (idx) => {
     if (!found) {

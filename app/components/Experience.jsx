@@ -4,7 +4,7 @@ export default function Experience() {
   return (
     <div className="flex justify-center py-28 px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 place-items-center">
-        <div className="transform -translate-y-16">
+        <div className="md:transform md:-translate-y-16">
           <Card
             title="Staff Data Engineer"
             year="Now"
@@ -12,7 +12,7 @@ export default function Experience() {
             imgSrc="/assets/staff_engineer.png"
           />
         </div>
-        <div className="transform -translate-y-12">
+        <div className="md:transform md:-translate-y-12">
           <Card
             title="Sr. Data Engineer"
             year="2023"
@@ -20,7 +20,7 @@ export default function Experience() {
             imgSrc="/assets/senior_engineer.png"
           />
         </div>
-        <div className="transform -translate-y-14">
+        <div className="md:transform md:-translate-y-14">
           <Card
             title="Data Engineer"
             year="2022"
@@ -28,7 +28,7 @@ export default function Experience() {
             imgSrc="/assets/data_scientist.png"
           />
         </div>
-        <div className="transform -translate-y-10">
+        <div className="md:transform md:-translate-y-10">
           <Card
             title="Data Scientist"
             year="2021"
@@ -36,7 +36,7 @@ export default function Experience() {
             imgSrc="/assets/data_scientist.png"
           />
         </div>
-        <div className="transform -translate-y-10">
+        <div className="md:transform md:-translate-y-10">
           <Card
             title="Data Analyst"
             year="2019"
