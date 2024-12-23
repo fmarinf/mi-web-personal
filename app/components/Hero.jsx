@@ -1,16 +1,14 @@
 export default function Hero() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center text-center px-6">
+    <div className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-24 md:pt-0">
       <h1 className="text-6xl leading-tight">
-        <span className="line-through text-gray-500 mr-2 block sm:inline">
-          Data Analyst 
-        </span>,
-        <span className="line-through text-gray-500 mr-2 block sm:inline">
-          Data Scientist 
-        </span>,
-        <span className="block sm:inline">
-          Data Engineer🔧
+        <span className="line-through text-gray-500 block">
+          Data Analyst
         </span>
+        <span className="line-through text-gray-500 block">
+          Data Scientist
+        </span>
+        Data Engineer🔧
       </h1>
       <p className="mt-4 text-xl text-secondary">
         Building data solutions, crafting insights, and diving into algo trading 🚀
