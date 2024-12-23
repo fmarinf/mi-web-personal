@@ -20,11 +20,11 @@ export const metadata = {
   openGraph: {
     title: "Portfolio | Data Engineer",
     description: "Showcasing projects and experience in data engineering.",
-    url: "https://fernandomarin.cl",
+    url: "https://fernandomarin.me",
     site_name: "Tu Portfolio",
     images: [
       {
-        url: "https://fernandomarin.cl",
+        url: "/assets/og-image.png",
         width: 800,
         height: 600,
         alt: "Portfolio Preview",
@@ -41,11 +41,11 @@ export default function RootLayout({ children }) {
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://fernandomarin.cl" />
+      <link rel="canonical" href="https://fernandomarin.me" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Portfolio | Data Engineer" />
       <meta property="og:description" content="Showcasing projects and experience in data engineering." />
-      <meta property="og:image" content="https://fernandomarin.cl/og-image.jpg" />
+      <meta property="og:image" content="/assets/og-image.png" />
     </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
